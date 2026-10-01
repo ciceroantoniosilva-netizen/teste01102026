@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EducaFin - Educação Financeira</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <nav class="navbar">
+        <div class="logo">Educa<span>Fin</span></div>
+
+        <ul class="nav-links">
+            <li><a href="#inicio">Início</a></li>
+            <li><a href="#dicas">Dicas</a></li>
+            <li><a href="#calculadora">Calculadora</a></li>
+            <li><a href="#sobre">Sobre</a></li>
+        </ul>
+
+        <button id="menu-btn">☰</button>
+    </nav>
+</header>
+
+<main>
+    <section id="inicio" class="hero">
+        <div class="hero-content">
+            <p class="tag">EDUCAÇÃO FINANCEIRA</p>
+            <h1>Cuide melhor do seu <span>dinheiro.</span></h1>
+            <p>
+                Aprenda a organizar suas finanças, economizar,
+                planejar seus objetivos e construir um futuro financeiro
+                mais consciente.
+            </p>
+
+            <a href="#dicas" class="btn">Começar agora</a>
+        </div>
+
+        <div class="hero-card">
+            <div class="card-icon">💰</div>
+            <h3>Seu dinheiro, suas escolhas</h3>
+            <p>Pequenas decisões financeiras podem fazer uma grande diferença.</p>
+        </div>
+    </section>
+
+    <section id="dicas" class="section">
+        <div class="section-title">
+            <p class="tag">APRENDA</p>
+            <h2>Conheça os fundamentos</h2>
+            <p>Alguns hábitos podem ajudar você a ter mais controle sobre sua vida financeira.</p>
+        </div>
+
+        <div class="cards">
+            <article class="card">
+                <div class="icon">📊</div>
+                <h3>Organize seu orçamento</h3>
+                <p>
+                    Anote suas receitas e despesas para entender
+                    exatamente para onde seu dinheiro está indo.
+                </p>
+            </article>
+
+            <article class="card">
+                <div class="icon">🏦</div>
+                <h3>Monte uma reserva</h3>
+                <p>
+                    Criar uma reserva financeira pode ajudar a lidar
+                    com despesas inesperadas.
+                </p>
+            </article>
+
+            <article class="card">
+                <div class="icon">🎯</div>
+                <h3>Defina objetivos</h3>
+                <p>
+                    Estabeleça metas financeiras claras e acompanhe
+                    seu progresso ao longo do tempo.
+                </p>
+            </article>
+
+            <article class="card">
+                <div class="icon">📚</div>
+                <h3>Continue aprendendo</h3>
+                <p>
+                    Conhecimento financeiro ajuda você a tomar decisões
+                    mais conscientes.
+                </p>
+            </article>
+        </div>
+    </section>
+
+    <section id="calculadora" class="calculator-section">
+        <div class="section-title">
+            <p class="tag">FERRAMENTA</p>
+            <h2>Calculadora de orçamento</h2>
+            <p>Veja quanto sobra do seu orçamento mensal.</p>
+        </div>
+
+        <div class="calculator">
+            <div class="input-group">
+                <label for="income">Renda mensal (R$)</label>
+                <input type="number" id="income" placeholder="Ex.: 3000">
+            </div>
+
+            <div class="input-group">
+                <label for="expenses">Despesas mensais (R$)</label>
+                <input type="number" id="expenses" placeholder="Ex.: 2200">
+            </div>
+
+            <button class="btn" id="calculate">Calcular</button>
+
+            <div id="result" class="result">
+                Preencha os valores para calcular.
+            </div>
+        </div>
+    </section>
+
+    <section class="tips-section">
+        <div class="tip-content">
+            <p class="tag">DICA DO DIA</p>
+            <h2 id="tip-title">Comece anotando seus gastos.</h2>
+            <p id="tip-text">
+                Saber exatamente quanto você gasta é um dos primeiros
+                passos para organizar suas finanças.
+            </p>
+
+            <button class="btn secondary" id="new-tip">
+                Nova dica
+            </button>
+        </div>
+    </section>
+
+    <section id="sobre" class="section about">
+        <div class="section-title">
+            <p class="tag">SOBRE</p>
+            <h2>Por que educação financeira?</h2>
+        </div>
+
+        <div class="about-content">
+            <p>
+                Educação financeira é o processo de aprender a administrar
+                melhor os recursos financeiros, compreendendo conceitos
+                como orçamento, consumo, poupança, crédito e investimentos.
+            </p>
+
+            <p>
+                O objetivo do EducaFin é apresentar esses conceitos de forma
+                simples e acessível, ajudando você a desenvolver hábitos
+                financeiros mais conscientes.
+            </p>
+        </div>
+    </section>
+</main>
+
+<footer>
+    <div class="logo">Educa<span>Fin</span></div>
+    <p>© 2026 EducaFin — Educação financeira para todos.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
